@@ -63,14 +63,14 @@ void draw(){
   stroke(0,0,0);
   
   //legs & feet
+  genObj(162,279,LegOffsetX, legWidth, 65,50);
+  genObj(162,279,LegOffsetX, legWidth, 65-25,50);
+  genObj(162,279,LegOffsetX, legWidth, 65-25-25,50);
+  genObj(222,279,LegOffsetX, legWidth, 295,50);
+  genObj(222,279,LegOffsetX, legWidth, 295+25,50);
+  genObj(222,279,LegOffsetX, legWidth, 295+50,50);
   genObj(cHipX, cHipY - 5, LegOffsetX, legWidth, 315 + 20,55);
   genObj(cHipX, cHipY - 5, -LegOffsetX, legWidth, 45 - 20,55);
-  genObj(165,279,LegOffsetX, legWidth, 65,50);
-  genObj(165,279,LegOffsetX, legWidth, 65-25,50);
-  genObj(165,279,LegOffsetX, legWidth, 65-25-25,50);
-  genObj(220,279,LegOffsetX, legWidth, 295,50);
-  genObj(220,279,LegOffsetX, legWidth, 295+25,50);
-  genObj(220,279,LegOffsetX, legWidth, 295+50,50);
   
 }
 
